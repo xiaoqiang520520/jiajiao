@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.swiper-container {
+    width: 100%;
+    height: 188px;
+    position: relative;
+}  
+
+.swiper-slide img{
+    width:100%;
+    height: 188px;
+}
+/* <!-- 建立头部 --> */
+
+.head{
+    width:100%;
+    height:188px;
+    /* background:yellow; */
+    background-size: cover;
+    background-position: center top;
+    position:absolute;
+    left: 0;
+    top:0;
+    z-index: 10;
+
+}
+.head img{
+    position: absolute;
+    left:170px;
+    top:10px;
+    
+}
+.head-title{
+    width: 580px;
+    height:38px;
+    /* background:yellow; */
+    position: absolute;
+    top:30px;
+    left:650px;
+}
+.head-title a{
+    display: block;
+    width: 112px;
+    height:38px;
+    float: left;
+    text-align: center;
+    line-height: 38px;
+    color: #fff;
+    font-size:15px;
+
+}
+/* <!-- 结束建立头部 --> */
+
+
+/* <!-- 建立中间部分 --> */
+        
+.middle{
+    width:1269px;
+    height:627px;
+    /* background:yellow; */
+    margin: 50px auto 0;
+}
+
+.mid-left{
+    width:297px;
+    height:486px;
+    float: left;
+    
+}
+
+
+.mid-left img{
+    width: 254px;
+    height:105px;
+    margin-left:30px;
+    margin-top:20px;
+    margin-bottom:20px;
+
+}
+.mid-left p{
+    width: 297px;
+    height:82px;
+    font-size: 24px;
+    font-weight: 700;
+    margin-left:20px;
+
+}
+
+.mid-left ul{
+    width:287px;
+    height:215px;
+
+}
+
+.mid-left ul a{
+    display: block;
+    width:287px;
+    height:43px;
+    float: left;
+    font-size: 14px;
+    color: #000;
+    text-align:left;
+    line-height: 43px;
+    padding-left: 20px;
+    box-sizing: border-box;
+    background: #f6f6f6;
+    border-top:1px solid #d8d8d8;
+    
+
+    
+}
+
+.mid-left ul a:nth-of-type(4){
+    background:#d8d8d8;
+
+}
+.middle-right{
+    width:951px;
+    height:607px;
+    float:right;
+    /* background:green; */
+}
+
+.middle-right p{
+    width:900px;
+    height:94px;
+    margin: 20px auto;
+    font-size:14px;
+    border-bottom: 1px dotted #000;
+}
+
+
+
+
+
+/* <!-- 结束建立中间部分 --> */
+
+
+
+/* <!-- 建立底部 --> */
+.bottom{
+    width: 1269px;
+    height:65px;
+    padding: 0 40px;
+    /* background: yellow; */
+    margin-top: 50px;
+    overflow: hidden;
+    background:#eee;
+}
+
+.bottom p{
+    width:421px;
+    height:21px;
+   
+    /* background:red; */
+    color: #333;
+    font-size:12px;
+    margin: 22px auto;
+
+}
+/* <!-- 结束建立底部
+

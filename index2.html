@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>课程介绍</title>
+    <link rel="stylesheet" href="css/index2.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.2/css/swiper.min.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.2/js/swiper.min.js"></script>
+</head>
+<body>
+     
+
+
+        <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="img/about.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/kecheng.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/xinwen.jpg" alt="">
+                    </div>
+
+
+                   <div  class="swiper-slide">
+                        <img src="img/lianxiwomen.jpg" alt="">
+                    </div>
+
+
+                </div>
+                
+                <!-- 建立头部 -->
+     <div class="head">
+            <img src="img/jiaoyupeixun.png" alt="">
+   
+            <div class="head-title">
+                <a href="index.html">首页</a>
+                <a href="index1.html">关于我们</a>
+                <a href="index2.html">课程介绍</a>
+                <a href="index3.html">新闻资讯</a>
+                <a href="index4.html">联系我们</a>
+            </div>
+       </div>
+       <!-- 结束建立头部 -->
+
+
+        </div>
+
+
+        <!-- 建立中间部分 -->
+
+
+        <div class="middle">
+            <div class="mid-left">
+                <p>
+                        PRODUCTS<br>
+                        产品展示
+                </p>
+                
+                <img src="img/zhanshi.png" alt="">
+
+
+                <ul>
+                    <a href="index.html">首页</a>
+                    <a href="index1.html">关于我们</a>
+                    <a href="index2.html">课程介绍</a>
+                    <a href="index3.html">新闻资讯</a>
+                    <a href="index4.html">联系我们</a>
+                </ul>
+            </div>
+
+
+            <div class="middle-right">
+               
+                <!-- 建立图片盒子部分 -->
+                <div class="picture-boxes">
+                    <img src="img/p1.jpg" alt="">
+                    <img src="img/p2.png" alt="">
+                     <img src="img/p3.png" alt="">
+                    <img src="img/p3.png" alt="">
+                    <img src="img/p4.jpg" alt="">
+                    <img src="img/p5.jpg" alt="">
+    
+    
+        </div>
+        <!-- 结束建立图片盒子部分 -->
+                
+            </div>
+
+
+
+        </div>
+
+        <!-- 结束建立中间部分 -->
+
+
+         <!-- 建立底部 -->
+    <div class="bottom">
+            <p>版权所有 ©2014   地址：上海市松江区佘山林荫大道18号     京ICP备********号 </p>
+        </div>
+        <!-- 结束建立底部 -->
+
+           
+</body>
+
+<script>        
+        var mySwiper = new Swiper ('.swiper-container', {
+        //   direction: 'vertical', // 垂直切换选项
+          loop: true, // 循环模式选项
+          autoplay:true,
+
+          effect : 'fade',
+          // 如果需要分页器
+          pagination: {
+            el: '.swiper-pagination',
+          },
+          
+          // 如果需要前进后退按钮
+          navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+          },
+          
+          // 如果需要滚动条
+          scrollbar: {
+            el: '.swiper-scrollbar',
+          },
+        })        
+        </script>
+
+</html>
